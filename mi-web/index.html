@@ -1,9 +1,70 @@
-<!DOCTYPE html>
-<html>
 <head>
-  <title>Mi TFG</title>
+  <meta charset="UTF-8">
+  <title>Lockheed Martin Estilo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>¡Hola mundo desde Docker y Nginx!</h1>
+  <header>
+      <div class="logo">Lockheed Estilo</div>
+      <nav>
+          <ul class="menu">
+              <li><a href="#">Inicio</a></li>
+              <li class="dropdown">
+                  <a href="#">Proyectos</a>
+                  <ul class="submenu">
+                      <li><a href="#">Aeroespacial</a></li>
+                      <li><a href="#">Defensa</a></li>
+                      <li><a href="#">Ciberseguridad</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#">Nosotros</a>
+                  <ul class="submenu">
+                      <li><a href="#">Historia</a></li>
+                      <li><a href="#">Valores</a></li>
+                  </ul>
+              </li>
+              <li class="dropdown">
+                  <a href="#">Contacto</a>
+                  <ul class="submenu">
+                     <li><a href="https://github.com/GabrielHuertasDL">Github Gabriel</a></li>
+                     <li><a href="https://github.com/AlvaroRecioRubio">Github Álvaro</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+  </header>
+
+  <main>
+      <section class="hero">
+          <h1>Innovación en cada misión</h1>
+          <p>Inspirado en Lockheed Martin</p>
+          <div class="cards-container">
+              <a href="https://www.google.com" target="_blank" class="card-link">
+                  <div class="card">
+                      <h3>Innovación</h3>
+                      <p class="card-content">Soluciones tecnológicas de vanguardia para misiones críticas.</p>
+                  </div>
+              </a>
+              <a href="https://www.microsoft.com" target="_blank" class="card-link">
+                  <div class="card">
+                      <h3>Precisión</h3>
+                      <p class="card-content">Cada componente diseñado para cumplir con los más altos estándares.</p>
+                  </div>
+              </a>
+              <a href="https://www.apple.com" target="_blank" class="card-link">
+                  <div class="card">
+                      <h3>Compromiso</h3>
+                      <p class="card-content">Dedicados a la excelencia y el servicio a nuestros aliados.</p>
+                  </div>
+              </a>
+          </div>            
+      </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2025 Lockheed Estilo</p>
+  </footer>
 </body>
 </html>
