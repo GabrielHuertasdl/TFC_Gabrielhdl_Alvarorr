@@ -1,0 +1,10 @@
+services:
+  web:
+    image: nginx:1.26.3  # Asegúrate de que la indentación esté bien
+    container_name: web-tfg
+    ports:
+      - "3000:80"
+    volumes:
+      - ./mi-web:/usr/share/nginx/html:ro
+    restart: always
+
